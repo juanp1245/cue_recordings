@@ -11,7 +11,7 @@
 /* GLOBAL: #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 { color: #fff; }
-	#footer h3.widget-title	{ color:#b3b3b3; }	
+	#footer h3.widget-title	{ color:#fff; }	
 	strong { color: #fff; }
 	pre { background: #333; }
 	abbr, acronym, dfn { border-bottom: 1px dotted #666; }
@@ -152,6 +152,7 @@
 	.post-intro h2 a { background: #ff5500; background: rgba(255, 85, 0, 0.729); color:#fff; }
 	.post-intro h2 a:hover { background: #000; background: rgba(0,0,0,0.7); color:#ff5500; }
 	.meta .post-date { color:#ccc; }
+	.meta_events .post-date_events { color:#ff5500; }
 
 
 /* MODULE: #Comments

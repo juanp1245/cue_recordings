@@ -15,12 +15,29 @@
 	cursor: default; 
 }
 
-.action-btn.buy, .action-btn.cue { 
+.action-btn.cue { 
 	background: url(./images/bkg_btn.png) repeat-x 0;
-}	
+}
+
+.action-btn.reserve {
+	background: url(images/bg_btn.png) repeat-x 0 -230px; color:#ff5500;
+}
+
+.action-btn.reserve:hover {
+	color: #ff5500;
+}
 
 .mg-bttm-latest {
 	margin-bottom: 15px;
+}
+
+
+.meta_events {
+	font-size: 30px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 20px 0 15px 0;
+	font-family: 'TSBlock_Bold';
 }
 
 @font-face {
@@ -79,14 +96,14 @@
 
 /* GLOBAL: #Typography
 ================================================== */
-	h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; font-weight: 900; }
+	h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 30px; line-height: 34px; margin-bottom: 14px;}
 	h2 { font-size: 24px; line-height: 30px; margin-bottom: 10px; }		
 	h3 { font-size: 20px; line-height: 34px; margin-bottom: 8px; }
 	h3.widget-title { font-size:16px; line-height: 1; margin-bottom:15px; text-transform: uppercase; font-family: 'TSBlock_Bold'; }
 	#footer h3.widget-title	{ font-size: 14px; line-height: 30px; margin-bottom: 4px; text-transform: uppercase; }
-	h3.section-title { font-size:30px; letter-spacing: -1px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); color: #ff5500; }	
+	h3.section-title { font-size:23px; letter-spacing: -1px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); color: #ff5500; }	
 	h4 { font-size: 18px; line-height: 30px; margin-bottom: 4px; }	 
 	h5 { font-size: 16px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
@@ -307,7 +324,7 @@
 	.post-intro h2 { position:absolute; bottom:0; width:80%; margin-bottom:0; line-height: 1.2; }
 	.post-intro h2 a { font-size:12px; display:block; padding:8px 10px; text-shadow: 0 -1px 0 rgba(0,0,0,0.2); }
 	.post-intro h2 a:hover { border:none; }
-	.meta { font-size:10px; font-weight:bold; text-transform: uppercase; margin:15px 0 10px 0;}
+	.meta { font-size:10px; font-weight:bold; text-transform: uppercase; margin:15px 0 10px 0; }
 	.meta .bull { font-size:18px; line-height: 1; display:inline-block; margin:0 5px; position:relative; top:3px; }
 	.img-fullwidth { margin-bottom:10px; }
 	
