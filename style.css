@@ -24,7 +24,7 @@
 }
 
 @font-face {
-	font-family: 'TSBlock_Bold.ttf';
+	font-family: 'TSBlock_Bold';
 	src: url(/fonts/TSBlock_Bold.ttf);
 	font-style: normal;
 	font-weight: normal;
@@ -32,7 +32,7 @@
 
 .font_title {
 
-	font-family: 'TSBlock_Bold.ttf';
+	font-family: 'TSBlock_Bold';
 
 }
 
@@ -84,7 +84,7 @@
 	h1 { font-size: 30px; line-height: 34px; margin-bottom: 14px;}
 	h2 { font-size: 24px; line-height: 30px; margin-bottom: 10px; }		
 	h3 { font-size: 20px; line-height: 34px; margin-bottom: 8px; }
-	h3.widget-title { font-size:16px; line-height: 1; margin-bottom:15px; text-transform: uppercase; font-family: 'TSBlock_Bold.ttf'; }
+	h3.widget-title { font-size:16px; line-height: 1; margin-bottom:15px; text-transform: uppercase; font-family: 'TSBlock_Bold'; }
 	#footer h3.widget-title	{ font-size: 14px; line-height: 30px; margin-bottom: 4px; text-transform: uppercase; }
 	h3.section-title { font-size:30px; letter-spacing: -1px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); color: #ff5500; }	
 	h4 { font-size: 18px; line-height: 30px; margin-bottom: 4px; }	 
@@ -305,7 +305,7 @@
 	.post-intro { position:relative; }
 	.post-intro img { display:block; }
 	.post-intro h2 { position:absolute; bottom:0; width:80%; margin-bottom:0; line-height: 1.2; }
-	.post-intro h2 a { font-size:16px; display:block; padding:8px 10px; text-shadow: 0 -1px 0 rgba(0,0,0,0.2); }
+	.post-intro h2 a { font-size:12px; display:block; padding:8px 10px; text-shadow: 0 -1px 0 rgba(0,0,0,0.2); }
 	.post-intro h2 a:hover { border:none; }
 	.meta { font-size:10px; font-weight:bold; text-transform: uppercase; margin:15px 0 10px 0;}
 	.meta .bull { font-size:18px; line-height: 1; display:inline-block; margin:0 5px; position:relative; top:3px; }
@@ -419,7 +419,7 @@
 	.widget .tour-dates { margin-bottom:0; }
 	/* .widget .tour-dates li, .events .tour-dates li { margin-bottom:-1px; } */
 	.tour-dates p { margin-bottom:0; }
-	.tour-date { float:left; width:60px; font-family: 'Lato', sans-serif; text-align: center; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); padding:10px 0; }
+	.tour-date { float:left; width:60px; font-family: 'Signika', sans-serif; text-align: center; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); padding:10px 0; }
 	.tour-date .day, .tour-date .year { font-weight:900; display:block;  }
 	.tour-date .day { font-size:24px; }
 	.tour-date .year { font-size:14px; }
@@ -428,6 +428,7 @@
 		width:138px;
 		padding:10px;
 		border: transparent;
+		font-family: 'Signika', sans-serif;
 	}
 	
 
