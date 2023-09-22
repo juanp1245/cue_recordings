@@ -86,7 +86,7 @@
 	h3 { font-size: 20px; line-height: 34px; margin-bottom: 8px; }
 	h3.widget-title { font-size:16px; line-height: 1; margin-bottom:15px; text-transform: uppercase; }
 	#footer h3.widget-title	{ font-size: 14px; line-height: 30px; margin-bottom: 4px; text-transform: uppercase; }
-	h3.section-title { font-size:30px; letter-spacing: -1px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); }	
+	h3.section-title { font-size:30px; letter-spacing: -1px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); color: #ff5500; }	
 	h4 { font-size: 18px; line-height: 30px; margin-bottom: 4px; }	 
 	h5 { font-size: 16px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
@@ -417,7 +417,7 @@
 /* WIDGET: #Tour Dates
 ================================================== */
 	.widget .tour-dates { margin-bottom:0; }
-	.widget .tour-dates li, .events .tour-dates li { margin-bottom:-1px; }
+	/* .widget .tour-dates li, .events .tour-dates li { margin-bottom:-1px; } */
 	.tour-dates p { margin-bottom:0; }
 	.tour-date { float:left; width:60px; font-family: 'Lato', sans-serif; text-align: center; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); padding:10px 0; }
 	.tour-date .day, .tour-date .year { font-weight:900; display:block;  }
