@@ -134,8 +134,8 @@
 /* MODULE: #Main navigation
 ================================================== */
 	.sf-menu a { color:#fff; text-shadow: 0 1px 0 rgba(0,0,0,0.5); }
-	.sf-menu li li { background: #242424 url(../images/colors/orange/bg_subnav.png) repeat-x; border:solid 1px #000; }
-	.sf-menu li:hover { background: url(../images/bkg_btn.png) repeat-x 0; border:solid 1px #ff5500; }
+	.sf-menu li li { background: #242424 url(../images/bg_subnav.png) repeat-x; border:solid 1px #000; background-size: cover; }
+	.sf-menu li:hover { background: url(../images/bkg_btn.png) repeat-x 0; border:solid 1px #ff5500; background-size: cover; }
 	.sf-menu > li > a:hover, .sf-menu > li.active a, .current-menu-item a, .current-menu-parent a { color:#ff5500; }	
 	
 

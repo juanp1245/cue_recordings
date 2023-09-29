@@ -261,8 +261,8 @@
 	.widget-img { display:block; }	
 	#footer .widget { margin-bottom:20px; }
 	#footer .widget p { margin-bottom:5px; }
-	.sub-head, .main-head { font-size:11px; line-height: 1; display:block; margin-bottom:5px;}
-	.main-head { font-weight:bold; }
+	.sub-head, .main-head { font-size:15px; line-height: 1; display:block; margin-bottom:5px;}
+	.main-head { font-weight:bold; font-size: 11px !important; }
 
 	a.action-btn { display:inline-block; height:15px; padding:0 5px 5px 5px; position:relative; top:5px; font-weight:bold; font-size:10px; text-transform: uppercase; text-shadow: 0 -1px 0 rgba(0,0,0,0.3); border-radius:1px; box-shadow:0 0 3px rgba(0,0,0,0.3); }
 	a.action-btn:hover { border:none;  }
@@ -410,8 +410,8 @@
 	.events .tour-dates li { position:relative; }
 	.events .tour-dates .tour-place { padding:18px 0 0 20px; width:auto; }
 	.events .tour-dates .tour-date { padding:5px 0;  }
-	.events .tour-dates .sub-head { font-size:14px; }
-	.events .tour-dates .main-head { font-size:13px; }
+	.events .tour-dates .sub-head { font-size:15px; }
+	.events .tour-dates .main-head { font-size:11px !important; }
 	.events .tour-dates .action-btn { position:absolute; top:27px; right:24px; }
 	
 	/* map */
