@@ -31,6 +31,23 @@
 	margin-bottom: 15px;
 }
 
+.sub-head-set {
+	color: #bebebe;
+	font-size: 13px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.main-head-set {
+	color: #fff;
+    font-size: 14px;
+}
+
+.border_CTA {
+	border: solid 1px #ff5500 !important;
+    background: #323232;
+}
 
 .meta_events {
 	font-size: 30px;
@@ -262,9 +279,9 @@
 	#footer .widget { margin-bottom:20px; }
 	#footer .widget p { margin-bottom:5px; }
 	.sub-head, .main-head { font-size:15px; line-height: 1; display:block; margin-bottom:5px;}
-	.main-head { font-weight:bold; font-size: 11px !important; }
+	.main-head { font-size: 12px !important; }
 
-	a.action-btn { display:inline-block; height:15px; padding:0 5px 5px 5px; position:relative; top:5px; font-weight:bold; font-size:10px; text-transform: uppercase; text-shadow: 0 -1px 0 rgba(0,0,0,0.3); border-radius:1px; box-shadow:0 0 3px rgba(0,0,0,0.3); }
+	a.action-btn { display:inline-block; height:15px; padding:0 5px 5px 5px; position:relative; top:5px; font-weight:bold; font-size:11px; text-transform: uppercase; text-shadow: 0 -1px 0 rgba(0,0,0,0.3); border-radius:1px; box-shadow:0 0 3px rgba(0,0,0,0.3); }
 	a.action-btn:hover { border:none;  }
 	.action-btn.watch, .action-btn.listen { background: url(images/bg_btn.png) repeat-x; }
 	.action-btn.sold { background: url(images/bg_btn.png) repeat-x 0 -25px; color:#777; }
